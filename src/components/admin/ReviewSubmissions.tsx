@@ -15,7 +15,7 @@ import {
   FileText,
   X
 } from 'lucide-react';
-import { baseURL } from "../../Utils/network.tsx";
+import { baseURL } from "../../Utils/Network";
 
 interface Submission {
   _id: string;

@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import { Upload, X, FileText, Plus, CheckCircle } from 'lucide-react';
-import { baseURL } from "../../Utils/network.tsx";
+import { baseURL } from "../../Utils/Network";
 
 interface SubmitFormData {
   templateType: string;

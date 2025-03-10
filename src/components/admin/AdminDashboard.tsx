@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { useAuth } from '../../context/AuthContext';
 import { Users, FileText, ClipboardList, ArrowUpRight, BarChart2 } from 'lucide-react';
-import { baseURL } from "../../Utils/network.tsx";
+import { baseURL } from "../../Utils/Network";
 
 
 interface DashboardStats {

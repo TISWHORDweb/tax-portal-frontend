@@ -13,7 +13,7 @@ import {
   ChevronLeft, 
   ChevronRight 
 } from 'lucide-react';
-import { baseURL } from "../../Utils/network.tsx";
+import { baseURL } from "../../Utils/Network";
 
 interface User {
   _id: string;

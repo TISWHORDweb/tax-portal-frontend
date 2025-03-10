@@ -4,7 +4,7 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 import { useAuth } from '../../context/AuthContext';
 import { User, Mail, Phone, Lock, Save } from 'lucide-react';
-import { baseURL } from '../../Utils/network';
+import { baseURL } from '../../Utils/Network';
 
 interface ProfileFormData {
   name: string;
